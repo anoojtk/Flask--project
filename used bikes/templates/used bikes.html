@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/css/used bikes.css">
+</head>
+<body>
+<div class="bike">
+    <center>
+    <form action="{{url_for('predict')}}" method="post" class="form">
+    <h1>USED BIKE PREDICTION</h1>
+    <label for="owner">ENTER OWNER :</label>
+    <select name="owner" id="owner">
+        <option value="">select owner type</option>
+        <option value="1">first owner</option>
+        <option value="2">second owner</option>
+        <option value="3">third owner</option>
+        <option value="4">others</option><br>
+    </select><br>
+    <br>
+    <label for="age" >ENTER VECHICLE AGE :</label>
+    <input type="text" name="age" id="age1" placeholder="enter vechicle age"><br>
+    <br>
+    <label for="power">ENTER VECHICLE POWER :</label>
+    <input type="text" name="power" id="power1" placeholder="enter vechicle power"><br>
+    <br>
+    <label for="brand">CHOOSE BRAND :</label>
+    <select name="brand" id="brand">
+        <option value="">select brand</option>
+        <option value="1">TVS</option>
+        <option value="2">Royal Enfield</option>
+        <option value="3">Triumph</option>
+        <option value="4">Yamaha</option>
+        <option value="5">Honda</option>
+        <option value="6">Hero</option>
+        <option value="7">Bajaj</option>
+        <option value="8">Suzuki</option>
+        <option value="9">Benelli</option>
+        <option value="10">KTM</option>
+        <option value="11">Mahindra</option>
+        <option value="12">Kawasaki</option>
+        <option value="13">Ducati</option>
+        <option value="14">Hyosung</option>
+        <option value="15">Harley-Davidson</option>
+        <option value="16">Jawa</option>
+        <option value="17">BMW</option>
+        <option value="18">Indian</option>
+        <option value="19">Rajdoot</option>
+        <option value="20">LML</option>
+        <option value="21">Yezdi</option>
+        <option value="22">MV</option>
+        <option value="23">Ideal</option>
+    </select>
+    <input  type="submit" value="submit" id="submit">
+    <h2 class="a">{{prediction}}</h2>
+    </form>
+    </center>
+
+
+</div>
+</body>
+</html>

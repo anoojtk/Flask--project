@@ -1,0 +1,45 @@
+.bike{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/static/rikas-rasheed-iq5jLDMVXZQ-unsplash.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.bike h1{
+    text-align: center;
+    font-weight: 600;
+    font-style: oblique;
+    color: royalblue;
+    padding: 10px 20px;
+    position: absolute;
+    left: 550px;
+    bottom: 500px;
+}
+.bike label{
+    position: absolute;
+    left: 50px;
+    color: royalblue;
+    font-weight: 500;
+}
+.bike input{
+    position: absolute;
+    left: 700px;
+}
+.bike label{
+    position: absolute;
+    left: 500px;
+}
+.bike select{
+    position: absolute;
+    left: 650px;
+}
+.a{
+    position: absolute;
+    left: 550px;
+    color: royalblue;
+}
+#submit{
+    top: 500px;
+}

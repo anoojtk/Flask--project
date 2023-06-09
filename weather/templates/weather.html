@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="..//static/css/weather.css">
+</head>
+<body>
+<div class="img" >
+    <center>
+    <form action="{{url_for('predict')}}" method="post" class="form">
+    <h1>CLIMATE PRDICTION</h1>
+    <label for="climate">enter your temp</label>
+    <input type="text" name="climate" id="climate">
+    <input  type="submit" value="submit" id="submit"><br><br>
+
+    <label for="climate">enter your wind</label>
+    <input type="text" name="climate" id="climate">
+ 
+    <h2>{{prediction}}</h2>
+    </form>
+    </center>
+
+</div>
+    
+</body>
+</html>

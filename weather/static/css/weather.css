@@ -1,0 +1,39 @@
+
+.img{
+    width: 100%;
+    height: 100vh;
+    background: url(/static/ocean-3605547_640.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.img h1{
+    text-align: center;
+    font-weight: 600;
+    font-style: oblique;
+    color: black;
+    padding: 10px 20px;
+    position: absolute;
+    left: 550px;
+    bottom: 500px;
+}
+#climate{
+    position: absolute;
+    left: 650px;
+}
+.img label{
+    position: absolute;
+    left: 520px;
+}
+#submit{
+    position: absolute;
+    left: 850px;
+    bottom: 290px;
+
+}
+.img h2{
+    position: absolute;
+    left: 650px;
+    top: 400px;
+}
